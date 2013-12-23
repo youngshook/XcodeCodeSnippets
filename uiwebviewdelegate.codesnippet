@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>webviewdelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UIWebViewDelegate
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    if (error.code != NSURLErrorCancelled) {
+        &lt;#Do#&gt;
+    }
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    &lt;#Do#&gt;
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    &lt;#Do#&gt;
+}
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    &lt;#Do#&gt;
+    return YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>823900F9-1A80-49D8-AB1F-71844C397C2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>webviewdelegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIWebViewDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
