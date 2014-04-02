@@ -256,6 +256,35 @@ Description: `fis`
     }
     
 
+**fuckingblockmethod.codesnippet**  (FuckingBlockMethod)  
+Shortcut: `fuckingBlockMethod`  
+Description: `Declares a method that takes a block as its first parameter`  
+
+    - (void)someMethodThatTakesABlock:(<#returnType#> (^)(<#parameterTypes#>))<#parameterName#>
+    {
+        
+    }
+
+**fuckingblockproperty.codesnippet**  (FuckingBlockProperty)  
+Shortcut: `fuckingBlockProperty`  
+Description: `Delcares a block as a fucking property`  
+
+    @property (nonatomic, copy) <#returnType#> (^<#blockName#>)(<#parameterTypes#>);
+
+**fuckingblocktypedef.codesnippet**  (FuckingBlockTypedef)  
+Shortcut: `fuckingBlockTypedef`  
+Description: `Typedefs a fucking block`  
+
+    typedef <#returnType#> (^<#TypeName#>)(<#parameterTypes#>);
+
+**fuckingblockvariable.codesnippet**  (FuckingBlockVariable)  
+Shortcut: `fuckingBlockVariable`  
+Description: `Declares a block as a fucking local variable`  
+
+    <#returnType#> (^<#blockName#>)(<#parameterTypes#>) = ^<#returnType#>(<#parameters#>) {
+        <#code#>
+    };
+
 **gcdAsyncCurrentQueue.codesnippet**  (GCD: Async Current Queue)  
 Shortcut: `gcd_async_current`  
 Description: `gcd_async_current`  
@@ -811,8 +840,8 @@ Description: `string_contains`
     [<#string#> rangeOfString:@"<#match#>"].location != NSNotFound
 
 **strongProperty.codesnippet**  (Strong Property)  
-Shortcut: `pns`  
-Description: `pns`  
+Shortcut: `sdah`  
+Description: `sdah`  
 
     @property (nonatomic, strong) <#Class name#> *<#Property Name#>;
 
