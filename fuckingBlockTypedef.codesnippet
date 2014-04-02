@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sdah</string>
+	<string>fuckingBlockTypedef</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class name#&gt; *&lt;#Property Name#&gt;;</string>
+	<string>typedef &lt;#returnType#&gt; (^&lt;#TypeName#&gt;)(&lt;#parameterTypes#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D75FD95-B5D1-43D0-9626-F82AE3D0DC2C</string>
+	<string>A271C8AC-E9A4-4D8E-B2DA-3EB1057A2C15</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>sdah</string>
+	<string>Typedefs a fucking block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Property</string>
+	<string>FuckingBlockTypedef</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sdah</string>
+	<string>fuckingBlockMethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class name#&gt; *&lt;#Property Name#&gt;;</string>
+	<string>- (void)someMethodThatTakesABlock:(&lt;#returnType#&gt; (^)(&lt;#parameterTypes#&gt;))&lt;#parameterName#&gt;
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D75FD95-B5D1-43D0-9626-F82AE3D0DC2C</string>
+	<string>53CDDB0B-544D-4335-AD0A-103F6C45D41E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>sdah</string>
+	<string>Declares a method that takes a fucking block as its first parameter</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Property</string>
+	<string>FuckingBlockMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
