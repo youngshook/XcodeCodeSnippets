@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sdah</string>
+	<string>void</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class name#&gt; *&lt;#Property Name#&gt;;</string>
+	<string>- (void)&lt;#methodName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5D75FD95-B5D1-43D0-9626-F82AE3D0DC2C</string>
+	<string>FAFC235F-FB9E-4C3C-B65A-3801365C9469</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>sdah</string>
+	<string>void</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Strong Property</string>
+	<string>Declare Void return Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

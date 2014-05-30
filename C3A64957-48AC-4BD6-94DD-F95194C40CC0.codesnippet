@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fuckingBlockProperty</string>
+	<string>pni</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#parameterTypes#&gt;);</string>
+	<string>@property (nonatomic, weak) IBOutlet &lt;#Type#&gt; &lt;#Property Name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8C3FC56B-9DD1-4DE7-90E0-8575D6357648</string>
+	<string>C3A64957-48AC-4BD6-94DD-F95194C40CC0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Delcares a block as a fucking property</string>
+	<string>pni</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>FuckingBlockProperty</string>
+	<string>Weak IBOutlet Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
