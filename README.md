@@ -119,6 +119,12 @@ Description: `dl_method`
 
     NSLog(@"%@", NSStringFromSelector(_cmd));
 
+**declareVoidReturnMethod.codesnippet**  (Declare Void return Method)  
+Shortcut: `void`  
+Description: `void`  
+
+    - (void)<#methodName#>;
+
 **defineMacros.codesnippet**  (Define Macros)  
 Shortcut: `define_macros`  
 Description: `define_macros`  
@@ -619,36 +625,6 @@ Description: `method`
         <#DO#>
     }
 
-**myCodeSnippet.codesnippet**  (My Code Snippet)  
-Shortcut: ``  
-Description: ``  
-
-    #pragma mark - UIViewController
-    
-    - (void)viewDidLoad {
-        [super viewDidLoad];
-    }
-    
-    - (void)viewDidUnload {
-        [super viewDidUnload];
-    }
-    
-    - (void)viewWillAppear:(BOOL)animated {
-        [super viewWillAppear:animated];
-    }
-    
-    - (void)viewDidAppear:(BOOL)animated {
-        [super viewDidAppear:animated];
-    }
-    
-    - (void)viewWillDisappear:(BOOL)animated {
-    	[super viewWillDisappear:animated];
-    }
-    
-    - (void)viewDidDisappear:(BOOL)animated {
-    	[super viewDidDisappear:animated];
-    }
-
 **noticationHandler.codesnippet**  (Notication: Handler)  
 Shortcut: `notification_handler`  
 Description: `notification_handler`  
@@ -839,12 +815,6 @@ Description: `string_contains`
 
     [<#string#> rangeOfString:@"<#match#>"].location != NSNotFound
 
-**strongProperty.codesnippet**  (Strong Property)  
-Shortcut: `sdah`  
-Description: `sdah`  
-
-    @property (nonatomic, strong) <#Class name#> *<#Property Name#>;
-
 **suppressDeprecationWarning.codesnippet**  (Suppress deprecation warning)  
 Shortcut: `suppress_deprecation_warnings`  
 Description: `suppress_deprecation_warnings`  
@@ -1002,6 +972,36 @@ Description: `webviewdelegate`
         return YES;
     }
 
+**viewcontrollerLifeCylic.codesnippet**  (ViewController life cylic)  
+Shortcut: `viewlife`  
+Description: `viewlife`  
+
+    #pragma mark - UIViewController
+    
+    - (void)viewDidLoad {
+        [super viewDidLoad];
+    }
+    
+    - (void)viewDidUnload {
+        [super viewDidUnload];
+    }
+    
+    - (void)viewWillAppear:(BOOL)animated {
+        [super viewWillAppear:animated];
+    }
+    
+    - (void)viewDidAppear:(BOOL)animated {
+        [super viewDidAppear:animated];
+    }
+    
+    - (void)viewWillDisappear:(BOOL)animated {
+    	[super viewWillDisappear:animated];
+    }
+    
+    - (void)viewDidDisappear:(BOOL)animated {
+    	[super viewDidDisappear:animated];
+    }
+
 **viewDidDisappear.codesnippet**  (View Did Disappear)  
 Shortcut: `viewdiddisappear`  
 Description: `viewdiddisappear`  
@@ -1033,6 +1033,12 @@ Description: `viewwilldissappear`
     - (void)viewWillDisappear:(BOOL)animated {
         [super viewWillDisappear:animated];
     }
+
+**weakIboutletProperty.codesnippet**  (Weak IBOutlet Property)  
+Shortcut: `pni`  
+Description: `pni`  
+
+    @property (nonatomic, weak) IBOutlet <#Type#> <#Property Name#>;
 
 **weakProperty.codesnippet**  (Weak Property)  
 Shortcut: `pnw`  
