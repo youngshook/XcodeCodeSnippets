@@ -709,6 +709,12 @@ Description: `block_peform_after_delay`
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, delay * NSEC_PER_SEC), dispatch_get_main_queue(), block);
     }
 
+**pragma.codesnippet**  (Pragma)  
+Shortcut: `pp`  
+Description: `pp`  
+
+    #pragma mark <#Description#>
+
 **prepareForSegue.codesnippet**  (Prepare for Segue)  
 Shortcut: `prepareforsegue`  
 Description: `prepareforsegue`  
@@ -717,6 +723,12 @@ Description: `prepareforsegue`
         DebugLog(@"segue: %@", segue.identifier);
     }
     
+
+**propertyStrong.codesnippet**  (Property Strong)  
+Shortcut: `pns`  
+Description: `pns`  
+
+    @property (nonatomic, strong) <#Type#> <#Property Name#>;
 
 **pushAViewcontroller.codesnippet**  (Push a ViewController)  
 Shortcut: `push`  
@@ -752,7 +764,6 @@ Shortcut: `pmk`
 Description: `pmk`  
 
     #pragma mark - <#Section Name#>
-    #pragma mark - 
 
 **setupAutoresizingOfAView.codesnippet**  (Setup autoresizing of a view)  
 Shortcut: `autoresizing`  
