@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pnr</string>
+	<string>void</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, retain) &lt;#Type#&gt; &lt;#Property Name#&gt;;</string>
+	<string>- (void)&lt;#methodName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>54256970-4785-4CC2-888D-62618DF8D156</string>
+	<string>FAFC235F-FB9E-4C3C-B65A-3801365C9469</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pnr</string>
+	<string>void</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Retain Property</string>
+	<string>Declare Void return Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

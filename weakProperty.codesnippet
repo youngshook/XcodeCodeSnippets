@@ -6,7 +6,7 @@
 	<string>pnw</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, weak) &lt;#Class name#&gt; *&lt;#Property Name#&gt;;</string>

@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section Name#&gt;
-#pragma mark - </string>
+	<string>#pragma mark - &lt;#Section Name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F2939C78-FBD4-47C8-8FE2-D6BA2C5EC29B</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -119,6 +119,12 @@ Description: `dl_method`
 
     NSLog(@"%@", NSStringFromSelector(_cmd));
 
+**declareVoidReturnMethod.codesnippet**  (Declare Void return Method)  
+Shortcut: `void`  
+Description: `void`  
+
+    - (void)<#methodName#>;
+
 **defineMacros.codesnippet**  (Define Macros)  
 Shortcut: `define_macros`  
 Description: `define_macros`  
@@ -619,36 +625,6 @@ Description: `method`
         <#DO#>
     }
 
-**myCodeSnippet.codesnippet**  (My Code Snippet)  
-Shortcut: ``  
-Description: ``  
-
-    #pragma mark - UIViewController
-    
-    - (void)viewDidLoad {
-        [super viewDidLoad];
-    }
-    
-    - (void)viewDidUnload {
-        [super viewDidUnload];
-    }
-    
-    - (void)viewWillAppear:(BOOL)animated {
-        [super viewWillAppear:animated];
-    }
-    
-    - (void)viewDidAppear:(BOOL)animated {
-        [super viewDidAppear:animated];
-    }
-    
-    - (void)viewWillDisappear:(BOOL)animated {
-    	[super viewWillDisappear:animated];
-    }
-    
-    - (void)viewDidDisappear:(BOOL)animated {
-    	[super viewDidDisappear:animated];
-    }
-
 **noticationHandler.codesnippet**  (Notication: Handler)  
 Shortcut: `notification_handler`  
 Description: `notification_handler`  
@@ -733,6 +709,12 @@ Description: `block_peform_after_delay`
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, delay * NSEC_PER_SEC), dispatch_get_main_queue(), block);
     }
 
+**pragma.codesnippet**  (Pragma)  
+Shortcut: `pp`  
+Description: `pp`  
+
+    #pragma mark <#Description#>
+
 **prepareForSegue.codesnippet**  (Prepare for Segue)  
 Shortcut: `prepareforsegue`  
 Description: `prepareforsegue`  
@@ -741,6 +723,12 @@ Description: `prepareforsegue`
         DebugLog(@"segue: %@", segue.identifier);
     }
     
+
+**propertyStrong.codesnippet**  (Property Strong)  
+Shortcut: `pns`  
+Description: `pns`  
+
+    @property (nonatomic, strong) <#Type#> <#Property Name#>;
 
 **pushAViewcontroller.codesnippet**  (Push a ViewController)  
 Shortcut: `push`  
@@ -776,7 +764,6 @@ Shortcut: `pmk`
 Description: `pmk`  
 
     #pragma mark - <#Section Name#>
-    #pragma mark - 
 
 **setupAutoresizingOfAView.codesnippet**  (Setup autoresizing of a view)  
 Shortcut: `autoresizing`  
@@ -838,12 +825,6 @@ Shortcut: `string_contains`
 Description: `string_contains`  
 
     [<#string#> rangeOfString:@"<#match#>"].location != NSNotFound
-
-**strongProperty.codesnippet**  (Strong Property)  
-Shortcut: `sdah`  
-Description: `sdah`  
-
-    @property (nonatomic, strong) <#Class name#> *<#Property Name#>;
 
 **suppressDeprecationWarning.codesnippet**  (Suppress deprecation warning)  
 Shortcut: `suppress_deprecation_warnings`  
@@ -1002,6 +983,36 @@ Description: `webviewdelegate`
         return YES;
     }
 
+**viewcontrollerLifeCylic.codesnippet**  (ViewController life cylic)  
+Shortcut: `viewlife`  
+Description: `viewlife`  
+
+    #pragma mark - UIViewController
+    
+    - (void)viewDidLoad {
+        [super viewDidLoad];
+    }
+    
+    - (void)viewDidUnload {
+        [super viewDidUnload];
+    }
+    
+    - (void)viewWillAppear:(BOOL)animated {
+        [super viewWillAppear:animated];
+    }
+    
+    - (void)viewDidAppear:(BOOL)animated {
+        [super viewDidAppear:animated];
+    }
+    
+    - (void)viewWillDisappear:(BOOL)animated {
+    	[super viewWillDisappear:animated];
+    }
+    
+    - (void)viewDidDisappear:(BOOL)animated {
+    	[super viewDidDisappear:animated];
+    }
+
 **viewDidDisappear.codesnippet**  (View Did Disappear)  
 Shortcut: `viewdiddisappear`  
 Description: `viewdiddisappear`  
@@ -1033,6 +1044,12 @@ Description: `viewwilldissappear`
     - (void)viewWillDisappear:(BOOL)animated {
         [super viewWillDisappear:animated];
     }
+
+**weakIboutletProperty.codesnippet**  (Weak IBOutlet Property)  
+Shortcut: `pni`  
+Description: `pni`  
+
+    @property (nonatomic, weak) IBOutlet <#Type#> <#Property Name#>;
 
 **weakProperty.codesnippet**  (Weak Property)  
 Shortcut: `pnw`  
